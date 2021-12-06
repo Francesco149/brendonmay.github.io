@@ -1280,6 +1280,10 @@ function getPrimaryAndSecondaryStatType(maple_class) {
             'primaryStatType': 'INT',
             'secondaryStatType': 'LUK'
         },
+        'Lara': {
+            'primaryStatType': 'INT',
+            'secondaryStatType': 'LUK'
+        },
         'Jett': {
             'primaryStatType': 'DEX',
             'secondaryStatType': 'STR'
@@ -2236,6 +2240,14 @@ function getClassData(maple_class) {
             'dmgPercent': 20,
             'bossPercent': 20,
             'critDmg': 0
+        },
+
+        'Lara': {
+            'attPercent': 4,
+            'iedPercent': [15, 40],
+            'dmgPercent': 20,
+            'bossPercent': 105 + 15 + 10, // 105 only for mountain kid, do we keep this?
+            'critDmg': 20
         },
 
         'Jett': {
